@@ -1,0 +1,234 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+
+      .main{
+        position: relative;
+        height: 96vh;
+      }
+
+      .nav {
+        /* background-color: aqua; */
+        padding: 18px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .nav a {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.87);
+      }
+
+      .nav button {
+        padding: 10px 28px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        background-color: #0d6efd;
+        border: #0d6efd;
+        color: fff;
+        border-radius: 5px;
+      }
+
+      .imgcontainer {
+        height: 20vh;
+        width: 40vw;
+        /* border: 2px solid red; */
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .searchbox{
+        border: 1px solid #393a3d2d;
+        height: 55px;
+        width: 50vw;
+        margin: auto;
+        border-radius: 55px;
+        display: flex;
+        align-items: center;
+        position: relative;
+
+      }
+
+      .searchbox i {
+        position: absolute;
+        bottom: 19;
+        left: 12;
+        color: gray;
+        
+      }
+
+      .searchbox input{
+        position: relative;
+        left: 50px;
+        width: 450px;
+        height: 40px;
+        border: none;
+      }
+
+      .searchbox img{
+        position: relative;
+        left: 120px;
+        padding: 0px 10px;
+      }
+
+      .btn{
+        /* border: 1px solid red; */
+        width: 60vw;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 0px;
+      }
+
+      .btn button{
+
+        border: none;
+        padding: 7px 9px;
+        color: #202124;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+
+      }
+
+      .btn2{
+        /* border: 1px solid red; */
+        width: 50vw;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .btn2 p {
+        color: #4d5156;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+      }
+
+      .pk{
+        /* border: 1px solid red; */
+        width: 40vw;
+        color: #202124;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        bottom: 90px;
+        left: 15px;
+      }
+
+      .fot{
+        /* border: 1px solid green; */
+        height: 40px;
+        width: 95vw;
+        position: absolute;
+        bottom: 0px;
+        margin-left: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .fot .sec1{
+        display: flex;
+        align-items: center;
+        gap: 14px;
+      }
+
+      .fot .sec1 a{
+        text-decoration: none;
+        color: #202124;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <nav class="nav">
+        <a href="">Gmail</a>
+        <a href="">Images</a>
+        <button>Sign in</button>
+      </nav>
+
+      <div class="imgcontainer">
+
+        <img
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          alt=""
+        />
+
+      </div>
+
+
+      <div class="searchbox">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="search" name="" id="">
+        <img src="./mic.svg" width="30" height="30" alt="">
+        <img src="./camera.svg" width="30" height="30" alt="">
+
+      </div>
+      
+      <div class="btn">
+
+        <button class="btn1"> Google Search </button>
+        <button class="btn1"> I'm Feeling Lucky </button>
+
+      </div>
+       
+      <div class="btn2">
+
+        <p>Google offered in:</p>
+        <a href="">اردو</a>
+        <a href="">پښتو</a>
+        <a href="">سنڌي</a>
+
+      </div>
+
+      <div class="pk">
+        Pakistan
+      </div>
+
+
+      <footer class="fot">
+
+        <div class="sec1">
+
+            <a href="">About</a>
+            <a href="">Adversiting</a>
+            <a href="">Busniess</a>
+            <a href="">How Search Work</a>
+
+        </div>
+
+        <div class="sec1">
+
+          <a href="">Privacy</a>
+          <a href="">Terms</a>
+          <a href="">Settings</a>
+
+      </div>
+
+
+      </footer>
+
+    </div>
+  </body>
+</html>
