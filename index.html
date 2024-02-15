@@ -176,20 +176,34 @@
         width: 80vw;
       }
 
+      .imgcontainer img{
+        
+      }
+
       .searchbox {
         width: 70vw;
       }
 
       .searchbox input {
-        width: 200px;
+        width: 120px;
+        height: 30px;
+        position: relative;
       }
 
       .searchbox img {
-        left: 70px;
+        position: absolute;
+        left: 175px;
+        height: 20px;
+        width: 23px; 
+      }
+
+      .searchbox .img1{
+        padding: 0px 35px;
       }
 
       .btn {
         width: 80vw;
+        display: none;
       }
 
       .btn button {
@@ -204,17 +218,20 @@
       .pk {
         width: 80vw;
         font-size: 15px;
-        bottom: 60px;
+        bottom: 120px;
       }
 
       .fot {
-        width: 100vw;
-        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 85vw;
         padding: 8px;
       }
 
       .fot .sec1 {
-        gap: 10px;
+        gap: 12px;
       }
 
       .fot .sec1 a {
@@ -246,8 +263,8 @@
 
         <i class="fa-solid fa-magnifying-glass"></i>
         <input type="search" name="" id="">
-        <img src="./mic.svg" width="30" height="30" alt="">
-        <img src="./camera.svg" width="30" height="30" alt="">
+        <img class="img1" src="./mic.svg" width="30" height="30" alt="">
+        <img class="img2" src="./camera.svg" width="30" height="30" alt="">
 
       </div>
       
